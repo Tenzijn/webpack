@@ -1,20 +1,49 @@
-# App Starter
+# Webpack App Starter
 
-Here I have included list of starter projects for different frameworks and libraries.
+Frontend environment for building JavaScript applications
 
-### WebPack
+Includes the following features...
 
-- branch: webpack-v1
+- Babel Loader
+  - to support ES6+ and JSX
+- Sass Loader With Dart Sass
+  - to support Sass
+- HTMLWebpackPlugin
+  - to make index.html in dist folder
+- WebpackDevServer
+  - to run a local server
+- Asset Resource Loader
+  - to support images and fonts and other assets
+- Source Maps
+  - to support debugging
+- Caching
+  - to support caching
 
-### How to run the project
+## Usage
 
-- Clone the repo
-- Run `npm install`
-- Run `npm update`
-- Run `npm run dev`
-- Open `http://localhost:3000/` in your browser
-- Enjoy!
+Install and update the packages in package.json with the latest versions
 
-### How to build the project
+```
+npm install
+npm update
+```
 
-- Run `npm run build`
+Run Dev Server (Port 3000)
+
+```
+  npm run dev
+```
+
+## Build for production
+
+```
+npm run build
+```
+
+## Demo App
+
+The demo app is a very simple Joke generator. Replace with your own code and install other packages as needed
+
+- index.js (main javascript)
+- index.html (template)
+- styles/main.scss (styles)
