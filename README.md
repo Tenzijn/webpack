@@ -6,6 +6,15 @@ Here I have included list of starter projects for different frameworks and libra
 
 - branch: webpack-v1
 
-### Vite
+### How to run the project
 
-- branch: vite-v1
+- Clone the repo
+- Run `npm install`
+- Run `npm update`
+- Run `npm run dev`
+- Open `http://localhost:3000/` in your browser
+- Enjoy!
+
+### How to build the project
+
+- Run `npm run build`
